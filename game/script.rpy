@@ -3,35 +3,68 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define carlos = Character("Carlos")
-define Juan = Character("Juan")
-define rosa = Character("Rosa")
-define unkown = Character("???") 
 
-define Luis = Character("Luis")
+define Carlos = Character("Carlos", color="#c8ffc8")
+define Juan = Character("Juan", color="#ADD8E6")
+define Rosa = Character("Rosa" ,color="#FFC0CB")
+define unkown = Character("???" ,color="#90EE90") 
+define Luis = Character("Luis", color="#FFA500")
+define Maria =Character("Maria")
+define Daniela = Character("Daniela",color="#90EE90")
+
 #Image of Carlos the Guard
-image carlos_ch = "carlos/carlos_neutral.png"
-image carlos_ch_angry = "carlos/carlos_angry.png"
-image carlos_ch_poker_face = "carlos/carlos_porker_face.png"
-image carlos_ch_happy ="carlos/carlos_happy.png"
-image carlos_ch_concern = "carlos/carlos_concerned.png"
+image Carlos_ch = "carlos/carlos_neutral.png"
+image Carlos_ch_angry = "carlos/carlos_angry.png"
+image Carlos_ch_poker_face = "carlos/carlos_porker_face.png"
+image Carlos_ch_happy ="carlos/carlos_happy.png"
+image Carlos_ch_concern = "carlos/carlos_concerned.png"
 
 #Image of Juan the main character
-image Juan_main_ch = "Juan/Juan_neutral.png"
+image Juan_main_ch = "juan/juan_neutral.png"
+image Juan_main_ch_surprise = "juan/juan_surprised.png"
+image Juan_main_ch_suspicious = "juan/juan_suspicious.png"
+image Juan_main_ch_concerned = "juan/juan_concerned.png"
+
+
 
 #Image of Rosa the milf
-image rosa_anger = "rosa/rosa_furiosa.png"
-image rosa_serious = "rosa/rosa_seria.png"
-image rosa_sorprise = "rosa/rosa_sorprendida.png"
+image Rosa_anger = "rosa/rosa_furiosa.png"
+image Rosa_serious = "rosa/rosa_seria.png"
+image Rosa_sorprise = "rosa/rosa_sorprendida.png"
+
+#Image of Maria the daughter
+image Maria = "maria/maria enojada.png"
+
+#Image of Luis the Velociraptor
+image Luis_normal = "luis/image.webp"
+
+
 
 #load music assets
 
 
-image bg_mall = "bg/mall.jpg"
+
+image bg_mall:
+    zoom 0.5
+    "bg/mall.jpg"
+
+image bg_bar:
+    zoom 0.8 
+    "bg/restaurant.jpg"
+
+image bg_office:
+    zoom 0.38
+    "bg/office.jpg"
+
 
 transform half_size:
     zoom 0.39
     left
+
+transform half_size_right:
+    zoom 0.39
+    left
+
 
 transform double_size:
     zoom 3.0
@@ -45,8 +78,6 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-
-  
 
     Juan "Bueno siendo sincero mi padre humano tenía razón sobre que debí estudiar otra carrera en mi país natal, no pude encontrar trabajo de lo que estudie. La parte más estresante fue que la gran mayoría de las ofertas laborales pedían que tuvieran una experiencia mayor a la de 5 años"    
 
@@ -87,21 +118,84 @@ label start:
 
     play  music "Soft Jazz Relaxing Music.ogg"
 
+    scene bg_bar
+    show Luis_normal  at right
+    show carlos_neutral at half_size
+
     Juan "Ya estoy dentro y pues el bar se ve muy lindo con esa decoración que tiene. Me percato que al lado derecho está sentado un guardia Anquilosaurio color café con cara de pocos amigos que se me queda viendo raro. Al lado suyo esta un velociraptor color naranja más amigable le preguntare sobre donde esta Daniel"
 
 
     Juan "Buenas sabes de casualidad ¿Dónde puedo encontrar Daniel? Es un tiburón color azul con manchas blancas en la frente que me cito para el puesto de"
     # This ends the game.
 
+  
     Luis "Hmmm.. ¿Daniel? Daniel no me suena ¿No te referias a Daniela? Puedes preguntarle a la Jefa. Su oficina se encuentra ala derecha subiendo esas escaleras."
 
     Juan "Muchas gracias. *Curioso siempre pensé que Daniel era hijo único y no me sorprende el hecho de que no sea el verdadero jefe del local. A Daniel siempre le gustaba presumir cosas que no tenia*"
 
     Juan "Subo las escaleras y llego a la oficina. Toco la puerta y"
 
+    
     unkown "Carlos ya te dije que no planeare en renovar tu contrato si sigues con esa actitud"
 
     Juan "Disculpe mi nombre es Juan vino a buscar a Daniel sobre la solicitud de Vigilante debido a que"
 
     unkown " Esa voz… Adelante pasa"
+
+    scene bg_office
+
+    Juan "Abro la puerta y me encuentro a una chica tiburón de color azul con un  vestido verde y  un moño rojo al lado de su cabeza sentada escribiendo en una laptop"
+    
+    Juan "Disculpe la molestia nuevamente pero asumo que eres la hermana de Daniel me preguntaba si todavía siguen buscando un vigilante."
+    
+    Daniela "Realmente yo soy Daniel"
+
+    Juan "¿Por qué no me sorprende?."
+
+    Daniela "Muchas cosas han cambia.. Espera ¿Cómo que no te sorprende?"
+
+    Juan "Con todo respeto las pistas estaban ahi cuando hacíamos equipos de trabajo en la universidad siempre pasabas imágenes de ese meme del BoyKisser. "
+
+    Juan "Asi como también en Halloween hacias cosplay de algún femboy de temporada como Astolfo ya ni hablemos que en tu cuenta de Jurasicbook compartias imágenes de ese tal Darkwaifu."
+
+    Daniela "Puedo ser algo obvia jaja. Pero bueno retomando a lo otro sip sigo buscando un vigilante ¿te interesa el puesto?"
+
+    Juan "Realmente no pero necesito el dinero"
+
+    Daniela "Entonces es un si. Mira se por mi primo que no te gusta trabajar de esto pero necesito por esta semana la mayor cantidad de vigilantes en este bar para la noche"
+
+    Daniela "Tendre una reunión con el alcalde para la posible venta de un software y si todo va bien necesitare gente que se encargue de instalar el software en la alcaldía y darle mantenimiento sobre todo a los servidores. Es ahí donde yo te puedo meter"
+
+    Daniela "darte esa oportunidad ¿Qué me dices?"
+
+    Juan "Wow ¿Hablas en serio?"
+
+    Daniela "Si por supuesto, se exactamente lo que es sentir esa frustacion de estudiar por varios años y no encontrar empleo de eso"
+
+    Daniela "De hecho mi difunto padre me hizo trabajar en este bar como secretaria donde vi como manejar todos los gajes de este oficio asi como también le hize algunas mejoras como el de implementar una app de escritorio en vez de tener que usar tablas de RaptorXel para el conteo del inventario"
+
+    Daniela "Asi que te lo vuelvo a preguntar pequeñin ¿Te interesa el trabajo ?"
+
+    Juan "Sip"
+
+    Daniela "Bienvenido a bordo"
+
+    Juan "*Daniela se para y empieza a sujetar mi mano* "
+
+    Daniela "Ven te presentare con los demás  y de paso ¿por casualidad cual es tu altura y talla? Lo necesito para ver si tengo un uniforme a tu medida"
+
+    Juan "Mido xxxx y peso xx"
+
+    Daniela "Uy no creo tener uno a esa medida.  Pero primero necesito presentarte con los demás"
+
+    Juan "Salgo con Daniela de su oficina hacia la sala del bar. Agarro una silla pegado al comedor y me siento. Daniela agarra un vaso y una cuchara del comedor y empieza a dar un aviso"
+
+    Juan ": Escuchen todos. Tenemos un nuevo integrante en nuestro negocio, les presento a Mario un amigo de mi universidad denle todos una calida bienvenida"
+
+    unkown "Bienvenido compañero"
+
+
+
+
+
     return
