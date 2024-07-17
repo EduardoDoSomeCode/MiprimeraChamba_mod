@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 8: expected statement.
-    iamge carlos_ch = "carlos neutral.png"
-                    ^
+File "game/script.rpy", line 590: expected statement.
+    vpunch
+          ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Mon Jul  8 21:57:10 2024
+Tue Jul 16 22:58:08 2024
