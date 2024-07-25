@@ -1,5 +1,24 @@
-This is a simple mode 
+This mod was developed as part of a game jam based on the game SNOOT GAME and I WANI HUG THAT GATOR.
 
-created with the inspirations of games like
+Everything inside this repository, including:
 
-Snoot game  and  I wani hug that gator
+Code
+- Images (mainly character images)
+- Sound
+- was implemented during the time the game jam took place.
+
+Acknowledgments
+
+Made posible with the help of:
+
+- OmegonCrabster -Artist
+- Rexznov -Artist
+- Chulito -Artist
+- Sarmiento - Writer
+- EddoCode - Coder
+
+Special thank to : 
+
+- Pamplina - made the art of Rosa angry
+- Ignus93
+
