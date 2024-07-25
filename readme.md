@@ -4,10 +4,10 @@ This mod was developed as part of a game jam based on the game SNOOT GAME and I 
 
 Everything inside this repository, including:
 
-Code
+- Code
 - Images (mainly character images)
 - Sound
-- was implemented during the time the game jam took place.
+ was implemented during the time the game jam took place.
 
 ## Acknowledgments
 
