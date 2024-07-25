@@ -1,3 +1,5 @@
+# Mi primera chamba
+
 This mod was developed as part of a game jam based on the game SNOOT GAME and I WANI HUG THAT GATOR.
 
 Everything inside this repository, including:
@@ -7,7 +9,7 @@ Code
 - Sound
 - was implemented during the time the game jam took place.
 
-Acknowledgments
+## Acknowledgments
 
 Made posible with the help of:
 
