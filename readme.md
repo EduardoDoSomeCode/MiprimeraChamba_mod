@@ -19,7 +19,7 @@ Made posible with the help of:
 - Sarmiento - Writer
 - EddoCode - Coder
 
-Special thank to : 
+Special thanks to : 
 
 - Pamplina - made the art of Rosa angry
 - Ignus93
