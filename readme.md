@@ -6,7 +6,7 @@ Everything inside this repository, including:
 
 - Code
 - Images (mainly character images)
-- Sound
+- Sound <br>
  was implemented during the time the game jam took place.
 
 ## Acknowledgments
