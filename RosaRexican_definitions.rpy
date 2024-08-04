@@ -14,14 +14,15 @@ init:
 define Carlos = Character("Carlos", color="#c8ffc8")
 define Juan = Character("Juan", color="#ADD8E6")
 define Rosa = Character("Rosa" ,color="#FFC0CB")
-define unkown = Character("???" ,color="#90EE90") 
+define unknowdaniela = Character("???" ,color="#90EE90") 
 define Luis = Character("Luis", color="#FFA500")
 define Maria =Character("Maria")
 define Daniela = Character("Daniela",color="#90EE90")
+define unknow= Character("???", color= "#FF0000" )
+define unknowmaria= Character("???")
 define Don = Character("Don")
 define Pegaso = Character("Pegaso")
 define Reed =Character("Reed")
-define narrator = Character(None, what_italic=True,window_left_padding=10, window_bottom_padding=10, color="#808080", what_color="#808080" )
 
 
 #Image of Carlos the Guard

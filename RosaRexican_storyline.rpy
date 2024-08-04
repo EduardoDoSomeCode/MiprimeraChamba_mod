@@ -4,26 +4,27 @@ label Mi_primera_chamba_start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    "Volcaldera Bluffs, 28 de mayo, año 201M2042"
+    play music "mods/Mi primera chamba/audio/Nintendo Wii - Mii Channel Theme.ogg"
+    Juan "Volcaldera Bluffs, 28 de mayo, año 201M2042"
 
-    Juan "Siendo sincero mi padre tenía razón sobre lo de estudiar otra carrera en mi país natal, no pude encontrar trabajo de lo que estudié."
-    Juan "La parte más estresante fue ver que la gran mayoría de las ofertas laborales requerían una experiencia mayor a 5 años "    
+
+    Juan "Siendo sincero mi padre tenía razón sobre lo de estudiar otra carrera, no pude encontrar trabajo de lo que estudié."
+    Juan "La parte más estresante fue ver que la gran mayoría de las ofertas laborales requieren una experiencia mayor a 5 años "    
 
     Juan "¿COMO CHINGADOS UN UNIVERSITARIO QUE RECIEN SE GRADUA PUEDE CONSEGUIR TAL COSA? "
-    Juan "Ya ni hablemos que los sueldos que daban esas empresas eran muy inferiores al que deberían dar en realidad."
+    Juan "Ya ni hablemos que los sueldos que ofrecian esas empresas eran muy inferiores al que deberían dar en realidad."
 
     Juan "Es por eso que un mi tío me convenció de tratar de ir al otro lado a experimentar el sueño americano."
     Juan "Actualmente vivo en Volcadera Bluffs, Dinofornia, haciendo cualquier tipo de trabajo como vigilante, barrendero, lavaplatos entre otras cosas."
 
-    Juan "Caminando por un Wallmart cercano a mi departamento me encontré al primo de un viejo amigo de la universidad al parecer mi amigo Daniel también vive aquí y anda buscando un vigilante para un bar donde el es el dueño."
+    Juan "Caminando por un Wallmart cercano a mi departamento me encontré al primode de un viejo amigo universitario, al parecer mi amigo Daniel también vive aquí y anda buscando un vigilante para un bar donde el es el dueño."
 
-    Juan "No me gusta para nada trabajar de eso me frustra demasiado, pero esa suscripción ala cuenta de onlydinos de ese parasaurio azul femboy no se va a pagar solo."
+    Juan "No me gusta para nada trabajar de eso. Me frustra demasiado, pero esa suscripción ala cuenta de onlydinos de ese parasaurio azul femboy no se va a pagar solo."
 
 
     scene bg_mall
     with fade
 
-    play music "mods/Mi primera chamba/audio/Nintendo Wii - Mii Channel Theme.ogg"
     show Juan normal at half_size
 
     show Juan normal at flip_image
@@ -43,18 +44,18 @@ label Mi_primera_chamba_start:
     show Juan normal at half_size
     show Juan normal at center
 
-    "Lo malo es que como es pequeño y bastante usado (a pesar de que haya escaleras…)  lo que hace que inevitablemente huela mucho a obo. "
+    Juan "Lo malo es que como es pequeño y bastante usado (a pesar de que haya escaleras…)  lo que hace que inevitablemente huela mucho a obo. "
     
     Juan " Tio agradezco desde el fondo de mi alma que me hayas invitado a tus partidas de yu-di-no en la frikiplaza de nuestra ciudad para poder desarrollar inmunidad a este hedor"
 
     Juan " Lo bueno es que el elevador tiene clima y reproduce música de Nintendo. Conociendo como es la empresa no me sorprendaria que la compañía los demande por"
 
-    unkown "Tu si que eres muy grosero"
+    unknow "Tu si que eres muy grosero"
 
     show Juan normal  at flip_image
     Juan "¿Quién dijo eso? "
 
-    "Giro mi cabeza hacia la derecha e izquierda y no veo absolutamente  nada"
+    Juan "Giro mi cabeza hacia la derecha e izquierda y no veo absolutamente  nada"
     
     Juan "Deben ser los nervios o estoy desarrollando ezquisofrenia, por si las dudas voy a descansar mas y dejar de pasármela todo el dia viendo las funas que hay en X."
 
@@ -83,16 +84,16 @@ label conociendo_a_daniela:
     Juan " Al lado suyo esta un velociraptor color naranja más amigable le preguntare sobre donde esta Daniel"
 
     show Juan normal at flip_image
-    Juan "Buenas sabes de casualidad ¿Dónde puedo encontrar Daniel? Es un tiburón color azul con manchas blancas en la frente que me cito para el puesto de"
+    Juan "Buenas sabes de casualidad ¿Dónde puedo encontrar a Daniel? Es un tiburón color azul con manchas blancas en la frente que me cito para el puesto de"
     # This ends the game.
 
     show Luis neutral at mini_animation
 
-    Luis "Hmmm.. ¿Daniel? Daniel no me suena ¿No te referias a Daniela? Puedes preguntarle a la Jefa. Su oficina se encuentra ala derecha subiendo esas escaleras."
+    Luis "Hmmm.. ¿Daniel? Daniel no me suena ¿No te referiras a Daniela? Puedes preguntarle a la Jefa. Su oficina se encuentra ala derecha subiendo esas escaleras."
 
     Juan "Muchas gracias. "
 
-    "Curioso siempre pensé que Daniel era hijo único y no me sorprende el hecho de que no sea el verdadero jefe del local. A Daniel siempre le gustaba presumir cosas que no tenia"
+    Juan "Curioso siempre pensé que Daniel era hijo único y no me sorprende el hecho de que no sea el verdadero jefe del local. A Daniel siempre le gustaba presumir cosas que no tenia"
 
     
     window auto hide
@@ -116,11 +117,11 @@ label conociendo_a_daniela:
     Juan "Subo las escaleras y llego a la oficina. Toco la puerta y"
 
     
-    unkown "Carlos ya te dije que no planeare en renovar tu contrato si sigues con esa actitud"
+    unknowdaniela "Carlos ya te dije que no planeare en renovar tu contrato si sigues con esa actitud"
 
     Juan "Disculpe mi nombre es Juan vino a buscar a Daniel sobre la solicitud de Vigilante debido a que"
 
-    unkown " Esa voz… Adelante pasa"
+    unknowdaniela " Esa voz… Adelante pasa"
 
     scene  bg_office_rom
 
@@ -130,11 +131,11 @@ label conociendo_a_daniela:
 
     show Juan normal at half_size
     show Juan normal at left_position
-    "Abro la puerta y me encuentro a una chica tiburón de color gris con una camisa verde agua y una falda apretada sentada escribiendo en una laptop"
+    Juan "Abro la puerta y me encuentro a una chica tiburón de color gris con una camisa verde agua y una falda apretada sentada escribiendo en una laptop"
     
     Juan "Disculpe la molestia nuevamente pero asumo que eres la hermana de Daniel me preguntaba si todavía siguen buscando un vigilante."
     
-    Daniela "En realidad, yo soy Daniel"
+    Daniela "En realidad, yo soy Daniel. Bueno mas bien era"
 
     Juan "¿Por qué no me sorprende?."
 
@@ -142,7 +143,7 @@ label conociendo_a_daniela:
     Daniela "Muchas cosas han cambia.. Espera ¿Cómo que no te sorprende?"
 
 
-    Juan "Con todo respeto herman- na, pero se veía desde el espacio. cuando hacíamos equipos de trabajo en la universidad siempre pasabas imágenes del meme de BoyKisser "
+    Juan "Con todo respeto ami-ga, pero se veía desde el espacio. cuando hacíamos equipos de trabajo en la universidad siempre pasabas imágenes del meme de BoyKisser "
 
     Juan "Asi como también en Halloween hacias cosplay de algún femboy de temporada como Astolfo ya ni hablemos que en tu cuenta de Jurasicbook compartias imágenes de ese tal Darkwaifu."
 
@@ -177,8 +178,6 @@ label conociendo_a_daniela:
 
     show Daniela happy
     Daniela "¡Bienvenido a bordo Juan!  "
-    "Daniela se levanta de su silla y sujeta mi mano"
-
 
     Daniela "Ven te presentare con los demás  y de paso ¿por casualidad cual es tu altura y talla? Lo necesito para ver si tengo un uniforme a tu medida"
 
@@ -188,7 +187,7 @@ label conociendo_a_daniela:
     Daniela "Uy no creo tener uno a esa medida."
 
     show Daniela happy 
-    "Pero primero necesito presentarte con los demás"
+    Daniela "Pero primero necesito presentarte con los demás"
     
     jump presentacion
     
@@ -211,7 +210,7 @@ label presentacion:
     Daniela "Escuchen todos. Tenemos un nuevo integrante en nuestro negocio, les presento a Juan un amigo de mi universidad denle todos una calida bienvenida"
 
     #Remplazar por la etiqueta de todos
-    unkown "Bienvenido compañero"
+    Luis "Bienvenido compañero"
 
 
     show Carlos neutral at half_size_right
@@ -220,9 +219,7 @@ label presentacion:
 
 
     show Carlos angry 
-    Carlos "Bienvenido CoMpAñero. Pinche escuincle"
-
-    " Carlos hace una mueca al decir eso y Daniela observa eso "
+    Carlos "Bienvenido COMPAÑERO. Pinche escuincle"
 
     show Daniela angry
     Daniela "Carlos ya te dije que si seguias con esa actitud te meterias en mas problemas"
@@ -235,7 +232,7 @@ label presentacion:
     Daniela "Como conmigo. Te recuerdo  que a cada rato pienso sobre si despedirte ahorita mismo o cumplir con mi palabra de que puedas seguir trabajado aquí hasta que encuentres trabajo en otro lugar"
 
     show Carlos  neutral
-    Carlos "Pero tu padre jamás haría eso, yo estoy aquí desde que el señor Carmillo comenzó este negocio"
+    Carlos "Pero tu padre jamás haría eso, yo estoy aquí desde que el señor Sanchez comenzó este negocio"
 
 
     show Daniela angry
@@ -244,7 +241,7 @@ label presentacion:
     show Carlos neutral
     Carlos "Si señorita "
 
-    "Daniela se acerca lentamente hacia mi"
+    Juan "Daniela se acerca lentamente hacia mi"
 
     show Daniela at flip_image
     show Daniela at left_minus
@@ -258,14 +255,14 @@ label presentacion:
     show Daniela happy
     Daniela "Ntp por eso  yo lo pagare. Varios comerciantes de la zona ya me conocen y tengo varios trueques con ellos. Ten"
      
-    " saca un monedero rojo y me entraga un fajo de billetes " 
+    Juan " Ell saca un monedero rojo y me entraga un fajo de billetes " 
     Daniela " Se que en teoria trabajas hasta por dentro de 2 horas pero necesito que te quedes aquí para te puedas familiarizar con el entorno del centro comercial y del bar"
     Daniela" Sobre todo de las rutas de escape y del personal. Asi que ten este dinero para que puedas comprarte algo de comida"
 
     show Juan normal at mini_talk_animation
     Juan "No seria mejor que me dieras algo de lo que sirven del bar y nos ahorramos eso."
 
-    " Daniela hace un gesto con su ojo derecho  "
+    Juan " Daniela hace un gesto con su ojo derecho  "
 
     show Daniela
     Daniela "Sera mejor que no, nuestro chef no llega hasta dentro de media hora, además de que solo tengo papitas por el momento."
@@ -277,13 +274,11 @@ label presentacion:
     #show Daniela at left_to_right_min_animation
     " Miro como Daniela se aleja lentamente hacia el horizonte  "
 
-    Juan "Realmente no se me hace del todo raro que Daniel se haya hecho trans. Siempre bromeaba con nuestros amigos de que Daniel siempre tuvo el potencial para ser femboy"
+    Juan "Realmente no se me hace del todo raro que Daniel se haya hecho trans. Siempre bromeaba con nuestros amigos de que Daniel se veria bien vestido de chica"
 
-    " Rugido de tripas  "
+    Juan "Bueno debo apurarme si quiero comer."
 
-    Juan "bueno debo apurarme si quiero comer."
-
-    unkown "Los mortales de aquí suelen ser muy raros"
+    unknow "Los mortales de aquí suelen ser muy raros"
 
     play  music "Dragon Ball Z prologue music 2 (Buu Saga).ogg" 
 
@@ -299,7 +294,7 @@ label presentacion:
     Juan "llega a la oficina, ya con mi uniforme puesto. "
 
     show Daniela at mini_talk_animation
-    Daniela "Bueno caballeros como varios sabran el Alcalde Stoolas vendrá en cualquier dia de la siguiente semana necesito que cada uno de ustedes den su máximo esfuerzo para que este bar  se vea respetable"
+    Daniela "Bueno caballeros como varios sabran el Alcalde Stollas vendrá en cualquier dia de la siguiente semana necesito que cada uno de ustedes den su máximo esfuerzo para que este bar  se vea respetable"
 
     show Daniela hopeless  
     Daniela "Recuerden que algunos lugares del centro comercial tienen rutas de escape por si las cosas se ponen feas asi como de sistemas anti disturbios por si aparece otro borracho a causar disturbios"
@@ -346,9 +341,6 @@ label Conociendo_a_rosa:
 
     show Luis sad 
     Luis "Por un demonio "
-
-    " Luis hace un gesto de agotamiento "
-
     
     show Luis at mini_animation
     show Luis neutral 
@@ -363,7 +355,6 @@ label Conociendo_a_rosa:
     show Carlos happy at flip_image
 
     
-    " Carlos se mueve rumbo a la salida de enfrente del bar y aparece un humano viejo con bigote y un look similar a waluigi "
     hide Carlos happy 
     with dissolve
     hide Luis neutral
@@ -385,32 +376,25 @@ label Conociendo_a_rosa:
     # show Daniela at right
     show Daniela at flip_image
     with dissolve
-    " Daniela aparece delante de mi "
-
+    Juan " Siento la presencia de Daniela detras de mi "
 
     Daniela "Cuesta aproximadamente como  5 dólares señor"
 
     show Groomer sad
-    " El señor muestra una cara de sorprendido  "
 
-    Don "Esa voz….. "
+    Don "Ese tipo de voz….. "
 
     show Groomer angry
-    
-    " cambia la cara a uno de disgusto a uno de nervioso "
 
     Daniela "¿le pasa algo?"
 
     show Groomer angry
     Don " No solo que "
 
-    " se empieza a sujetar con el dedo un botón de su camisa  "
 
     show Groomer neutral at anti_flip
-    Don "deje a algo en el carro y no quiero que me lo robe ahorita vengo "
-    " El sujeto se mueve lentamente para luego acelerar y susurrar "
-    
-
+    Don "deje a algo en el carro y no quiero que me alguien me lo robe,  si me disculpa  "
+  
     Don "Por Jesus Raptor ¿Cómo es posible que haya ese tipo de raritos en este lugar?"
     
     hide Groomer neutral
@@ -467,7 +451,7 @@ label Conociendo_a_rosa:
     Juan "Nop"
 
     show Daniela 
-    Daniela "Ahí tienes tu respuesta. Bueno,  me tengo que ir."    
+    Daniela "Ahí tienes tu respuesta. Me tengo que retirar."    
 
     # hide Daniela with dissolve
     show Daniela at flip_image
@@ -483,14 +467,14 @@ label Conociendo_a_rosa:
     window auto show
 
 
-    " Veo que Daniela se va y me doy cuenta de una mancha que tiene en la parte trasera de su falda justo en la nalga izq… "
+    Juan " Veo que Daniela se va y me doy cuenta de una mancha que tiene en la parte trasera de su falda justo en la nalga izq… "
 
-    unkown "Por Afrodita , ¿no se supone que tu deber es vigilar en vez de  andar viendo traseros?"
+    unknow "Por Athenea , ¿no se supone que tu deber es vigilar en vez de  andar viendo traseros?"
 
     show Juan surprise
     Juan "¿Quién dijo eso?"
 
-    unkown "Espera. ¿Puedes escucharme?"
+    unknow "Espera. ¿Puedes escucharme?"
 
     show Luis neutral at half_size
     show Luis neutral at center
@@ -527,27 +511,27 @@ label Conociendo_a_rosa:
     window auto show
 
 
-    "Me siento y miro hacia afuera, miro que el chico aquilops se alegra y viene directo al bar. Que bueno!."
-    "tal vez su cita está aquí dentro; me alegro por él. Agarró una de las sillas y me pongo enfrente de donde están las cervezas cuando de repente siento un abrazo por mi espalda"
+    Juan "Me siento y miro hacia afuera, miro que el chico anquilosaurio se alegra y viene directo al bar. Que bueno!."
+    Juan "tal vez su cita está aquí dentro; me alegro por él. Agarró una de las sillas y me pongo enfrente de donde están las cervezas cuando de repente siento un abrazo por mi espalda"
 
     with vpunch
 
     show Maria happy at half_size_right
     show Maria happy at flip_image
-    Maria "BUENAS"
+    unknowmaria "BUENAS"
 
     show Juan neutral at flip_image
     Juan "¿Hola se te ofrece algo?"
 
-    Maria"No lo se, tu dime"
-    " el chico aquilops se ruboriza mientras me lanza una mirada picarona " 
-    Maria "después de todo,  tú me citaste aquí chico con melena. "
+    unknowmaria "No lo se, tu dime"
+    Juan " El chico  se ruboriza mientras me lanza una mirada picarona " 
+    unknowmaria "después de todo,  tú me citaste aquí chico con melena. "
 
     Juan "¿citarte?, ¿ de qué hablas?"
 
-    Maria "No te hagas amor"
-    "   el me da un beso y empieza a tocar mi mano derecha  " 
-    Maria "¡Tú me citaste aquí para finalmente conocernos en persona!."
+    unknowmaria "No te hagas amor"
+    Juan "El me da un beso y empieza a tocar mi mano derecha  " 
+    unknowmaria "¡Tú me citaste aquí para finalmente conocernos en persona!."
 
     Juan "¿de qué hablas?  ni te conozco y yo no bateo de ese lado."
 
@@ -556,29 +540,26 @@ label Conociendo_a_rosa:
     
 
     show Maria happy
-    Maria " Deja de fingir y abrázame."
-    "(La chica aquilops trata de darme un fuerte abrazo, pero no lo logra ya que me paro ante la presencia de Carlos)"
+    unknowmaria " Deja de fingir y abrázame."
+    Juan "(La chica aquilops trata de darme un fuerte abrazo, pero no lo logra ya que me paro ante la presencia de Carlos)"
 
     show Carlos ice happy at half_size
     show Carlos ice happy at flip_image
     with dissolve
     Carlos "¿Quién es tu novia novato?"
-    " muestra un helado en su mano izquierdo con su cara inexpresiva "
 
 
     show Juan neutral at anti_flip
     Juan "NO es mi novia." 
-    "(siento como la chica intenta tomarme de las manos)"
+    Juan "siento como la chica intenta tomarme de las manos"
 
 
-
-    Maria "Me llamo Maria y sip soy su novia."
+    Maria "Me llamo Maria y si soy su novia."
 
     show Carlos ice neutral  
-    "Carlos pone una expresión seria"
+    Juan "Noto que Carlos pone una expresión seria"
 
-
-    Carlos "Mira, me da igual lo que hagas escuincle, pero te recomiendo que no andes con menores de edad. Te meterás en muchos problemas"
+    Carlos "Me da igual lo que hagas , pero te recomiendo que no andes con menores de edad. Te meterás en muchos problemas"
 
     show Juan surprise
     Juan "¿ES UNA MENOR?"
@@ -611,7 +592,7 @@ label Conociendo_a_rosa:
 
 
     
-    "Entra una aquilops mayor  similar a la tipa que dice ser mi novia  pero más voluptuosa y atractiva"
+    Juan "Entra una dinosario mayor  similar a la tipa que dice ser mi novia  pero más voluptuosa y atractiva"
 
     show Carlos ice happy 
     Carlos "Buenas señora ¿se le ofrece algo?"
@@ -630,7 +611,7 @@ label Conociendo_a_rosa:
     Rosa "Tu amiga Cynthia me avisó de que no fuiste a su casa a estudiar. Estoy muy decepcionada de ti señorita; no puedo creer que le hicieras eso a Reed en su cumpleaños." 
 
     show Maria angry
-    Maria "¿¡Por qué debería estar SU cumpleaños eh!? ¡Él no es mi padre y nunca lo será!. ¡Estoy feliz estando con alguien que me aprecia de verdad!" 
+    Maria "¿¡Por qué debería estar de todas formas en su cumpleaños eh!? ¡Él no es mi padre y nunca lo será!. ¡Estoy feliz estando con alguien que me aprecia de verdad!" 
 
     
     window auto hide
@@ -642,7 +623,7 @@ label Conociendo_a_rosa:
     show Maria angry:
         pos (0.91, 0) 
     window auto show
-    "la chica intentó acercar su mano derecha a la mía pero logré quitarla con éxito"
+    Juan "La chica intentó acercar su mano derecha a la mía pero logré quitarla con éxito"
     
     Juan "Señora escuche yo no soy su novio ni la conozco para empezar."
 
@@ -684,7 +665,7 @@ label Conociendo_a_rosa:
         subpixel True xpos 0.77 zoom 0.28 
     
 
-    " En ese instante, la madre de la chica aquilops tomó a Carlos por la cola y comenzó a girar con él varias veces hasta finalmente dejarlo ir, arrojándolo a través de una ventana del centro comercial. "
+    Juan " En ese instante, la madre de la chica  tomó a Carlos por la cola y comenzó a girar con él varias veces hasta finalmente dejarlo ir, arrojándolo a través de una ventana del centro comercial. "
     
     
     show Carlos spin:
@@ -724,7 +705,7 @@ label Conociendo_a_rosa:
 
     Rosa "¡voy a darte el suplex de tu vida SKINNIE!"
 
-    Juan " La mujer anquilosáurido empieza a flexionar sus piernas y.. OH DIOS VIENE DIRECTAMENTE HACIA MI "
+    Juan "La señora empieza a flexionar sus piernas y.. OH DIOS VIENE DIRECTAMENTE HACIA MI "
 
     
     window auto hide
@@ -738,7 +719,7 @@ label Conociendo_a_rosa:
     window auto show
 
 
-    "Luis Trata de lanzarle una silla para bloquear su camino pero falla en el intento. Espera ella se detuvo. "
+    Juan "Luis Trata de lanzarle una silla para bloquear su camino pero falla en el intento. Espera ella se detuvo. "
 
     
     window auto hide
@@ -757,12 +738,12 @@ label Conociendo_a_rosa:
     window auto show
 
 
-    "OH MIERDA DIO UN FUERTE SALTO Y AGARRO A LUIS DE SU COLA."
+    Juan "OH MIERDA DIO UN FUERTE SALTO Y AGARRO A LUIS DE SU COLA."
 
     hide Rosa angry
     show Luis raqueta at half_size
     show Luis raqueta at center
-    "CARAJO ESTA USANDO A LUIS COMO RAQUETA Y VIENE HACIA MI-."
+    Juan "CARAJO ESTA USANDO A LUIS COMO RAQUETA Y VIENE HACIA MI-."
     
     window auto hide
     show Luis raqueta:
@@ -799,7 +780,7 @@ label Conociendo_a_rosa:
     hide Juan neutral with dissolve
     show Luis raqueta space at double_size
 
-    "Empiezo a correr hacia los pasillos del centro comercial cuando de repente veo a esa señora aventar a Luis hacia mi."
+    Juan "Empiezo a correr hacia los pasillos del centro comercial cuando de repente veo a esa señora aventar a Luis hacia mi."
 
 
     window auto hide
@@ -814,25 +795,23 @@ label Conociendo_a_rosa:
     with vpunch
 
 
-    "tuve que Saltar hacia la pared para evadir el proyectil"
+    Juan "tuve que Saltar hacia la pared para evadir el proyectil"
 
     
 
     # show Luis raqueta space at center
     Luis  "Arghhh….."
-    "Saca un walkie talkie"
-    Luis " a-aqui los guardias del bar tenemos un 3312, ¡tenemos un 3312!"
-    "se desmaya"
+    Luis "Los guardias del bar tenemos un 3312, ¡tenemos un 3312!"
 
     play music "mods/Mi primera chamba/audio/Shi Wo Yobu Cell Game (Extended).ogg"
-    "Sigo corriendo por mi vida seguido del behemoth y su engendro."
-    " Trato de arrojarle a mamázilla todos los anuncios y botes de basura que encuentro pero es inútil"
-    " Solo la hago enojar mas. Jesús raptor en tu cruz de piedra  si existes te imploro que me ayudes."
+    Juan "Sigo corriendo por mi vida seguido del behemoth y su engendro."
+    Juan " Trato de arrojarle a mamázilla todos los anuncios y botes de basura que encuentro pero es inútil"
+    Juan " Solo la hago enojar mas. Jesús raptor en tu cruz de piedra  si existes te imploro que me ayudes."
 
 
     show guardia at half_size
     show guardia at center 
-    "logro ver como aparece un guardia del centro comercial, quien trata de darle a la mujer con un taser pero no parece afectarla en lo más mínimo."  
+    Juan "logro ver como aparece un guardia del centro comercial, quien trata de darle a la mujer con un taser pero no parece afectarla en lo más mínimo."  
     show Rosa angry at half_size
 
     
@@ -861,20 +840,18 @@ label Conociendo_a_rosa:
     show guardia fail:
         ypos 1.75 rotate 67.0 
     window auto show
-    " aparece Rosa al lado de el y el guardia es aventado como si fuera un pino de boliche "
-  
+    Juan " aparece Rosa al lado de el y el guardia es aventado como si fuera un pino de boliche "
 
-
-
-    "MIERDA MIERDA. Trato de correr hacia las escaleras electricas y para mi horror comienzan a fallar soltando chispas por doquier. AHORA NO, AHORA NO"
+    Juan "MIERDA MIERDA"
+    Juan "Trato de correr hacia las escaleras electricas y para mi horror comienzan a fallar soltando chispas por doquier. AHORA NO, AHORA NO"
 
     jump run_juan
     return
 
 label run_juan:
-    unkown "Yo que tu iría por el elevador"
+    unknow "Yo que tu iría por el elevador"
 
-    "Cierto el elevador. Corro hacia el elevador cuando soy interceptado por Maria"
+    Juan "Cierto el elevador. Corro hacia el elevador cuando soy interceptado por Maria"
     Juan"¡Alejate de mi!"
 
     Maria "Relájate hombre, por lo que veo el elevador es la única salida que hay así que aguántate y subamos juntos."
@@ -889,7 +866,7 @@ label run_juan:
     show Maria shame  at half_size
     show Maria shame at left
     
-    "Me resigno y entramos los dos al elevador. Lo único bueno es que el elevador ya no huele feo.)"
+    Juan "Me resigno y entramos los dos al elevador. Lo único bueno es que el elevador ya no huele feo.)"
 
     show Maria sorprise 
     Maria "uh…. Ahora que lo pienso tu voz es algo diferente, y no llevas la playera que me dijiste que traerías."
@@ -904,7 +881,7 @@ label run_juan:
     Juan "¿otra vez? "
 
 
-    " el vidrio del elevador es atravesado por un cinturón "
+    Juan "En ese preciso momento escucho un crujido. Al voltear contemplo con horror un pedazo metalico atrevesando el vidrio del elevador"
     with vpunch
 
     show Juan surprise 
@@ -915,7 +892,7 @@ label run_juan:
     camera:
         subpixel True xpos -158 xzoom 1.15 yzoom 1.07 zoom 1.04 
     with vpunch
-    " Rosa empieza a jalar el elevador usando un cinturón y una cuerda"
+    Juan "Observo que la señora empieza a jalar el elevador usando un cinturón y una cuerda"
 
 
     Rosa "¿A DONDE CREEN QUE VAN ?" 
@@ -927,8 +904,8 @@ label run_juan:
     show Maria sprprise  at half_size
     show Maria sorprise at left
     
-    "El elevador llega a su destino y se abren las puertas."
-    "Salto con maría del elevador justo cuando este es derribado al no soportar la fuerza del dinosaurio"
+    Juan "El elevador llega a su destino y se abren las puertas."
+    Juan "Salto con maría del elevador justo cuando este es derribado al no soportar la fuerza del dinosaurio"
     with vpunch
     hide Maria sorprise with dissolve
     hide Juan surprise with dissolve
@@ -960,8 +937,7 @@ label run_juan:
     show ballo:
         subpixel True ypos 1.05 
 
-
-    " corremos con toda nuestra fuerza hacia las salidas cuando de repente,"
+    Juan "Corremos con toda nuestra fuerza hacia las salidas cuando de repente,"
     
     window auto hide
     show ballo:
@@ -974,9 +950,9 @@ label run_juan:
     window auto show
 
 
-    "vemos que un dinosaurio sale aventado hacia arriba"
+    Juan "vemos que un dinosaurio sale aventado hacia arriba"
      
-    "provocando que caiga escombros y parte de la salida sea bloqueada "
+    Juan "provocando que caiga escombros y parte de la salida sea bloqueada "
 
     # "Daniela Voltea hacia donde estaba el elevador"
 
@@ -988,7 +964,7 @@ label run_juan:
 
     scene bg_mall
     show Rosa lance at half_size
-    unkown "Por athenea, estan lloviendo jotos "
+    unknow "Lo que faltaba. Ahora estan lloviendo jotos "
 
 
     scene bg_mall       
@@ -1010,7 +986,7 @@ label run_juan:
     Juan "¿Hay alguna otra salida?"
 
     Daniela "Sip es por la azotea, debemos ir por las escaleras de emergencia; sígueme"
-    "Sigo a Daniela con rumbo hacia las escaleras cuando noto una enorme sombra sobre mi"
+    Juan "Sigo a Daniela con rumbo hacia las escaleras cuando noto una enorme sombra sobre mi"
 
     hide Maria neutral 
     hide Juan neutral 
@@ -1028,28 +1004,28 @@ label run_juan:
     with vpunch
 
     
-    "Daniela agarra un pedazo de madera  que le dio Maria"
-    "y le da un home run  en la cabeza de la señora haciendo que esta caiga hacia otro lado"
+    Juan "Daniela agarra un pedazo de madera  que le dio Maria"
+    Juan "y le da un home run  en la cabeza de la señora haciendo que esta caiga hacia otro lado"
     hide Rosa beat Daniela
 
-    "Daniela Abre una puerta cercana"
+    Juan "Daniela Abre una puerta cercana"
     Daniela "¿QUE ESPERAS ANIMAL? VÁMONOS ANTES DE QUE DESPIERTE"
 
     scene bg_stairs
-    "Sacudo mi cabeza para salir del shock y obedezco a Daniela, bajando las escaleras acompañado de las dos chicas"
+    Juan "Sacudo mi cabeza para salir del shock y obedezco a Daniela, bajando las escaleras acompañado de las dos chicas"
 
-    unkown "Hey tu ¿me escuchas verdad?"
+    unknow "Hey tu ¿me escuchas verdad?"
 
     Juan "No otra vez con las voces.."
 
-    unkown "No empieces con tus lloriqueos. Por la situación en la que te encuentras te conviene hacerme caso, puedo darte el poder que necesitas para darle vuelta a esta. encuéntrame en la azotea"
+    unknow "No empieces con tus lloriqueos. Por la situación en la que te encuentras te conviene hacerme caso, puedo darte el poder que necesitas para darle vuelta a esta. encuéntrame en la azotea"
 
     Juan "Si claro, hacerle caso a una voz en mi cabeza; que gran idea anótala Mario Hug-"
 
-    Daniela "¿Con quien hablas we?"
+    Daniela "¿Con quien hablas?"
 
-    unkown "si fuera tu haría caso, mira lo que hay debajo de las escaleras"
-    "Volteo hacia abajo y … CARAJO ES ELLA, ME MIRA FIJAMENTE A LOS OJOS Y  COMENZO A  SALTAR DESDE LAS ESCALARAS REBOTANDO"
+    unknow "si fuera tu haría caso, mira lo que hay debajo de las escaleras"
+    Juan "Volteo hacia abajo y … CARAJO ES ELLA, ME MIRA FIJAMENTE A LOS OJOS Y  COMENZO A  SALTAR DESDE LAS ESCALARAS REBOTANDO"
 
     # show black    
     # scene Rosa climb
@@ -1060,7 +1036,6 @@ label run_juan:
 
     Rosa "WRYYYY"
 
-    "Juan mira fijamente a maría "
     Juan "¿Cómo CARAJOS DETENEMOS A TU MADRE?"
 
     Maria "Una vez que ella entra en ese estado nada puede detenerla. Ella es imparable hasta conseguir con su objetivo"
@@ -1070,8 +1045,7 @@ label run_juan:
     # "Maria pone una mirada triste"
 
     scene bg_stairs
-    Maria "Ella dejo de escucharme hace tiempo. Desde que las cosas…. se hicieron complicadas en casa."
-
+    Maria "Ella dejo de escucharme hace tiempo. Desde que las cosas…. se pusieron complicadas en casa."
 
     Daniela "Tengo una idea, síganme hacia arriba rumbo a la azotea. "
 
@@ -1079,9 +1053,9 @@ label run_juan:
 
     return
 
-    "Daniela agarra una mano mía y le señala a María que corramos hacia arriba"
+    Juan "Daniela agarra una mano mía y le señala a María que corramos hacia arriba"
 
-    "Corremos lo más rápido que podamos hasta llegar al último piso donde vemos una puerta color verde. Daniela la abre y entramos todo. El lugar está en construcción."
+    Juan "Corremos lo más rápido que podamos hasta llegar al último piso donde vemos una puerta color verde. Daniela la abre y entramos todo. El lugar está en construcción."
 
     Daniela "Juan ayúdame a cerrar la puerta no puedo yo sola. Niña busca bloques y demás materiales para poder bloquear la puerta"
 
