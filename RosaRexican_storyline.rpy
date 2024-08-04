@@ -4,7 +4,7 @@ label Mi_primera_chamba_start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    play music "mods/Mi primera chamba/audio/Nintendo Wii - Mii Channel Theme.ogg"
+    play music "mods/Mi primera chamba/assets/audio/Nintendo Wii - Mii Channel Theme.ogg"
     Juan "Volcaldera Bluffs, 28 de mayo, año 201M2042"
 
 
@@ -69,7 +69,7 @@ label Mi_primera_chamba_start:
     return
 
 label conociendo_a_daniela:
-    play music "mods/Mi primera chamba/audio/Soft Jazz Relaxing Music.ogg"
+    play music "mods/Mi primera chamba/assets/audio/Soft Jazz Relaxing Music.ogg"
     
     scene bg_bar
     with fade
@@ -315,7 +315,7 @@ label presentacion:
     jump Conociendo_a_rosa
 
 label Conociendo_a_rosa:
-    play music "mods/Mi primera chamba/audio/Nintendo Wii - Mii Channel Theme.ogg"
+    play music "mods/Mi primera chamba/assets/audio/Nintendo Wii - Mii Channel Theme.ogg"
 
     show Juan neutral at half_size_right
     with dissolve
@@ -637,7 +637,7 @@ label Conociendo_a_rosa:
 
     #DBZ music PLaylis
 
-    play music "mods/Mi primera chamba/audio/DBZ- Battle Music 1.ogg"
+    play music "mods/Mi primera chamba/assets/audio/DBZ- Battle Music 1.ogg"
     Rosa "¿Cómo me dijiste?"
 
     Carlos "Que se relaje y no actúe como una vieja amargada "
@@ -803,7 +803,7 @@ label Conociendo_a_rosa:
     Luis  "Arghhh….."
     Luis "Los guardias del bar tenemos un 3312, ¡tenemos un 3312!"
 
-    play music "mods/Mi primera chamba/audio/Shi Wo Yobu Cell Game (Extended).ogg"
+    play music "mods/Mi primera chamba/assets/audio/Shi Wo Yobu Cell Game (Extended).ogg"
     Juan "Sigo corriendo por mi vida seguido del behemoth y su engendro."
     Juan " Trato de arrojarle a mamázilla todos los anuncios y botes de basura que encuentro pero es inútil"
     Juan " Solo la hago enojar mas. Jesús raptor en tu cruz de piedra  si existes te imploro que me ayudes."
@@ -1440,7 +1440,7 @@ label al_final:
 
 label credits:
 
-    play music "mods/Mi primera chamba/audio/Nintendo Wii - Mii Channel Theme.ogg"
+    play music "mods/Mi primera chamba/assets/audio/Nintendo Wii - Mii Channel Theme.ogg"
 
     scene credits_continuara
 

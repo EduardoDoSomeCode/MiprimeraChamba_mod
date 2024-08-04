@@ -5,7 +5,7 @@ init python:
     }]
 
 init:
-    $RosaRexican = "mods/Mi primera chamba/"
+    $RosaRexican = "mods/Mi primera chamba/assets"
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
